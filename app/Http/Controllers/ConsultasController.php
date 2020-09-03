@@ -75,6 +75,55 @@ class ConsultasController extends Controller
         return view('consultas.resultado4')->with('dato', $dato);
     }
 
+    public function consulta5(){
+        return view('consultas.consulta5');
+    }
+
+    public function resultado5(Request $request){
+        $data = $request->validate([
+            'nombre' => 'required',
+        ]);
+
+        $parametro = $data['nombre'];
+
+        $dato = DB::table('datos')->where('NOMBRE', $parametro)->get();
+
+        return view('consultas.resultado5')->with('dato', $dato);
+    }
+
+    public function consulta6(){
+        return view('consultas.consulta6');
+    }
+
+    public function resultado6(Request $request){
+        $data = $request->validate([
+            'apellido' => 'required',
+        ]);
+
+        $parametro = $data['apellido'];
+
+        $dato = DB::table('datos')->where('APELLIDO1', $parametro)->get();
+
+        return view('consultas.resultado6')->with('dato', $dato);
+    }
+
+    public function consulta7(){
+        return view('consultas.consulta7');
+    }
+
+    public function resultado7(Request $request){
+        $data = $request->validate([
+            'codigo' => 'required',
+        ]);
+
+        $parametro = $data['codigo'];
+
+        $dato = DB::table('datos')->where('COD_SOCIO', $parametro)->get();
+
+        return view('consultas.resultado7')->with('dato', $dato);
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *

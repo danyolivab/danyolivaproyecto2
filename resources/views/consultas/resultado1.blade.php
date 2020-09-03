@@ -4,10 +4,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3 class="text-primary">Resultado de la Búsqueda</h3>
-                <button class="btn btn-outline-success">
-                    Export a Excel
-                </button>
+                <h3 class="text-primary">Resultado de la Búsqueda por Código de Tarjeta</h3>
+
                 <hr>
 
                 <table class="table">

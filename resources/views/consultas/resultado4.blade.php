@@ -4,10 +4,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3 class="text-primary">Resultado Monton y Saldo por Tarjeta</h3>
-                <button class="btn btn-outline-success">
-                    Export a Excel
-                </button>
+                <h3 class="text-primary">Resultado Monto y Saldo por Tarjeta</h3>
+
                 <hr>
 
                 <table class="table">

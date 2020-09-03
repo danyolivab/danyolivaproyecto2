@@ -38,3 +38,12 @@ Route::get('/consulta/3/resultado', 'ConsultasController@resultado3')->name('con
 
 Route::get('/consulta/4', 'ConsultasController@consulta4')->name('consultas.consulta4')->middleware('revisarconsultas');
 Route::post('/consulta/4/resultado', 'ConsultasController@resultado4')->name('consultas.resultado4')->middleware('revisarconsultas');
+
+Route::get('/consulta/5', 'ConsultasController@consulta5')->name('consultas.consulta5')->middleware('revisarconsultas');
+Route::post('/consulta/5/resultado', 'ConsultasController@resultado5')->name('consultas.resultado5')->middleware('revisarconsultas');
+
+Route::get('/consulta/6', 'ConsultasController@consulta6')->name('consultas.consulta6')->middleware('revisarconsultas');
+Route::post('/consulta/6/resultado', 'ConsultasController@resultado6')->name('consultas.resultado6')->middleware('revisarconsultas');
+
+Route::get('/consulta/7', 'ConsultasController@consulta7')->name('consultas.consulta7')->middleware('revisarconsultas');
+Route::post('/consulta/7/resultado', 'ConsultasController@resultado7')->name('consultas.resultado7')->middleware('revisarconsultas');

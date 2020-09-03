@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3 class="text-primary">Histórico de Solicitudes (Paginado)</h3>
+                <h3 class="text-primary">Resultado de la Búsqueda por Código de Asociado</h3>
 
                 <hr>
 
@@ -22,7 +22,7 @@
                     <tbody>
                             @foreach ($dato as $d)
                                 <tr>
-                                <td>{{ $d->COD_SOCIO}}</td>
+                                   <td>{{ $d->COD_SOCIO}}</td>
                                     <td>{{$d->NOMBRE}}</td>
                                     <td>{{$d->APELLIDO1}}</td>
                                     <td>{{$d->FCH_CON}}</td>
@@ -32,7 +32,7 @@
                             @endforeach
                     </tbody>
                 </table>
-                {{ $dato->links() }}
+                <a href="{{route('consultas.consulta7')}}" class="btn btn-primary">Nueva consulta</a>
                 <a href="{{route('consultas.index')}}" class="btn btn-danger">Menu de Consultas</a>
             </div>
         </div>

@@ -12,9 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-image: #fff;
-        ;
-                background-size: cover;
+                background: #fff;
                 color: rgb(23, 78, 196);
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -82,7 +80,7 @@
             @endif
 
             <div class="content">
-                <h1 class="text-light">Prueba Programadores Grupo #2</h1>
+                <h1 class="text-light">Prueba Programadores Grupo #2 - Proyecto 2</h1>
                 <h2 class="text-light">Dany Otoniel Oliva Beltetón</h2>
                 <img src="https://www.cooperativaguayacan.com.gt/images/guayacan-logo-web.png" alt="">
             </div>
