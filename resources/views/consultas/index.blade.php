@@ -9,7 +9,7 @@
 
                 <div class="list-group">
                     <a href="{{route('consultas.consulta1')}}" class="list-group-item list-group-item-action link-consulta">
-                        1. Consulta más comoda para el usuario
+                        1. Consulta por número de tarjeta
                     </a>
                     <a href="{{ route('consultas.consulta2')}}" class="list-group-item list-group-item-action link-consulta">
                         2. Operaciones por rango de fecha (Sin Paginar)

@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3>1. Resultaods Consulta de cliente por Número de Tarjeta</h3>
+                <h3>1. Resultados Consulta de cliente por Número de Tarjeta</h3>
                 <hr>
                 <form action="{{route('consultas.resultado1')}}" method="post" autocomplete="off" novalidate>
                     @csrf

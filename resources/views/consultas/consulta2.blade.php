@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3>1. Consulta por rango de fecha</h3>
+                <h3>1. Consulta por rango de fecha (Sin paginar)</h3>
                 <hr>
                 <form action="{{route('consultas.resultado2')}}" method="post" autocomplete="off" novalidate>
                     @csrf

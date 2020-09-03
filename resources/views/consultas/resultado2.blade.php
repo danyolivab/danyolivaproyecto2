@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3 class="text-primary">Resultado de la Búsqueda por Intervalo de Fechas</h3>
+                <h3 class="text-primary">Resultado de la Búsqueda por Intervalo de Fechas (Sin paginar)</h3>
 
                 <hr>
 

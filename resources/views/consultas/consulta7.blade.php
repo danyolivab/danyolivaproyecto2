@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <h3>7. Consulta por Código del Asociado</h3>
+                <h3>7. Consulta por Código de Asociado</h3>
                 <hr>
                 <form action="{{route('consultas.resultado7')}}" method="post" autocomplete="off" novalidate>
                     @csrf
